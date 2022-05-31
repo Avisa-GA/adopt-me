@@ -1,38 +1,30 @@
 {
   "name": "adopt-me",
   "version": "1.0.0",
-  "description": "react-v7",
-  "main": "index.js",
+  "description": "Adopt pets via adopt-me",
+  "main": "src/App.js",
   "scripts": {
     "dev": "parcel src/index.html",
-    "format": "prettier --write 'src/**/*.{js,jsx,ts,tsx}'",
-    "format:check": "prettier --check 'src/**/*.{js,jsx,ts,tsx}'",
-    "lint": "eslint 'src/**/*.{js,jsx,ts,tsx}' --quiet"
+    "format": "prettier --write \"src/**/*.{js,jsx}\"",
+    "lint": "eslint \"src/**/*.{js,jsx}\" --quiet"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Avisa-GA/adopt-me.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Avisa-GA/adopt-me/issues"
-  },
-  "homepage": "https://github.com/Avisa-GA/adopt-me#readme",
+  "author": "Brian Holt <btholt+citr-v7-project@gmail.com>",
+  "license": "Apache-2.0",
   "devDependencies": {
-    "eslint": "^8.8.0",
-    "eslint-config-prettier": "^8.3.0",
-    "parcel": "^2.3.2",
-    "prettier": "^2.6.2",
+    "eslint": "8.8.0",
+    "eslint-config-prettier": "8.3.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-react": "^7.28.0",
+    "parcel": "2.2.1",
+    "prettier": "2.5.1",
     "process": "^0.11.10"
   },
   "dependencies": {
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
   },
   "browserslist": [
-    "last 2 Chrome versions",
+    "last 2 Chrome versions"
   ]
-
 }
