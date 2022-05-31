@@ -7,7 +7,7 @@ const App = () => {
     React.createElement("h1", {}, "Adopt Me"),
     <Pet name="Luna" animal="Dog" breed="Havanese" />,
     <Pet name="Pepper" animal="Bird" breed="Cockatiel" />,
-    <Pet name="Dojnk" animal="Cat" breed="Mix" />,
+    <Pet name="Doink" animal="Cat" breed="Mix" />,
   ]);
 };
 render(React.createElement(App), document.getElementById("root"));
