@@ -1,0 +1,23 @@
+{
+  "name": "adopt-me",
+  "version": "1.0.0",
+  "description": "react-v7",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier --write 'src/**/*.{js,jsx,ts,tsx}'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Avisa-GA/adopt-me.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Avisa-GA/adopt-me/issues"
+  },
+  "homepage": "https://github.com/Avisa-GA/adopt-me#readme",
+  "devDependencies": {
+    "prettier": "^2.6.2"
+  }
+}
